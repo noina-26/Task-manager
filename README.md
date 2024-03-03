@@ -16,7 +16,7 @@ This code creates a simple to-do list website.
 5. Clicking the "Delete" button removes the task from the list.
    
 ## Technologies Used :
-  -HTML
-  -CSS
-  -JAVASCRIPT
+  ->HTML
+  ->CSS
+  ->JAVASCRIPT
    
