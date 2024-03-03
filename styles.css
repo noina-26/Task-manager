@@ -1,5 +1,7 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Comic Sans MS, cursive ;
+    background-color:rgb(158, 154, 154) ; 
 }
 
 .container {
@@ -17,14 +19,14 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #4f71bb;
-    color: rgb(197, 134, 202);
+    background-color: #131314;
+    color: rgb(228, 226, 230);
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #647eaf;
+    background-color: #0c0d0f;
 }
 
 ul {
@@ -34,7 +36,7 @@ ul {
 
 li {
     padding: 10px;
-    border-bottom: 1px solid #556a7c;
+    border-bottom: 1px solid #976969;
     display: flex;
     align-items: center;
     justify-content: space-between;
