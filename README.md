@@ -3,8 +3,7 @@
 
 ## TO-Do List Website
 
-## PROBLEM STATEMENT :  
-Individuals often struggle to manage their tasks and responsibilities effectively. A simple and intuitive to-do list application can significantly enhance productivity and organization for users.
+## PROBLEM STATEMENT :  Individuals often struggle to manage their tasks and responsibilities effectively. A simple and intuitive to-do list application can significantly enhance productivity and organization for users.
 
 ## OVERVIEW
 This code creates a simple to-do list website. It includes adding, updating, viewing, and deleting tasks.
