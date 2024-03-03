@@ -2,6 +2,7 @@ let tasks = [];
 
 function addTask() {
     const taskInput = document.getElementById("taskInput");
+    const taskDescription = document.getElementById("taskDescription"); // Added description input
     const taskList = document.getElementById("taskList");
     
     if (taskInput.value === "") {
@@ -11,13 +12,16 @@ function addTask() {
 
     const newTask = {
         id: Date.now(),
-        content: taskInput.value
+        content: taskInput.value,
+        description: taskDescription.value // Added description property
     };
 
     tasks.push(newTask);
     renderTasks();
 
     taskInput.value = "";
+    taskDescription.value = ""; // Clear description input after adding task
+
 }
 
 function deleteTask(id) {
@@ -25,9 +29,9 @@ function deleteTask(id) {
     renderTasks();
 }
 
-function viewTask(id) {
+function viewDescription(id) {
     const task = tasks.find(task => task.id === id);
-    alert(task.content);
+    alert(task.description);
 }
 
 function updateTask(id) {
@@ -46,11 +50,9 @@ function renderTasks() {
 
     tasks.forEach(task => {
         const li = document.createElement("li");
-        li.textContent = task.content;
+        lElei.textContent = task.content;
 
-        const viewButton = document.createElement("button");
-        viewButton.textContent = "View";
-        viewButton.onclick = () => viewTask(task.id);
+        const descriptionButton=document.create
 
         const updateButton = document.createElement("button");
         updateButton.textContent = "Update";
